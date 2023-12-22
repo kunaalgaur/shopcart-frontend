@@ -1,0 +1,33 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+#text{
+    font-size: small;
+    color: grey;
+}
+
+#input{
+    height: 30px;
+    border: 1px solid #85858555;
+    outline: none;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+#input:focus{
+    border: 1px solid var(--blue);
+}
+
+#message{
+    color: var(--red);
+}
+
+#wrapper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

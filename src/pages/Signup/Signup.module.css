@@ -1,0 +1,16 @@
+#heading{
+    font-size: xx-large;
+    font-weight: 600;
+    color: var(--blue);
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#text{
+    font-size: small;
+}
+
+.link{
+    font-size: small;
+    color: var(--blue);
+}
